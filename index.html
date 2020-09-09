@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SVG</title>
+	<link rel="stylesheet" href="styles/animate.css">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div class="container">
+		<svg class="robot" width="500" height="400">
+			
+			<polyline points="196,157 156,167 140,207" stroke="gray" stroke-width="12" fill="none" stroke-linejoin="round"/>
+			<polyline points="150,217 140,203 130,217" stroke="gray" stroke-width="7" fill="none" stroke-linecap="round"/>
+			
+			<polyline points="296,155 346,167 350,207" stroke="gray" stroke-width="12" fill="none" stroke-linejoin="round"/>
+			<polyline points="342,218 350,207 360,216" stroke="gray" stroke-width="7" fill="none" stroke-linecap="round"/>
+			<circle cx="196" cy="157" r="15" fill="gray"/>
+			<circle cx="302" cy="157" r="15" fill="gray"/>
+			<rect width="20" height="120" fill="gray" x="210" y="252" stroke="gray" rx="5"/><!--  нога -->
+			<rect width="27" height="25" fill="lightgray" x="206" y="299" stroke="gray" rx="5"/><!--  середина -->
+			<rect width="32" height="10" fill="gray" x="199" y="369" stroke="gray" rx="5"/><!--  стопа -->
+			<rect width="20" height="120" fill="gray" x="271" y="252" stroke="gray" rx="5"/><!--  нога -->
+			<rect width="27" height="25" fill="lightgray" x="267" y="299" stroke="gray" rx="5"/><!--  середина -->
+			<rect width="32" height="10" fill="gray" x="269" y="369" stroke="gray" rx="5"/><!--  стопа -->
+			
+			<ellipse cx="250" cy="240" rx="45" ry="30" fill="lightgray" stroke="gray"/><!--  под туловищем -->
+					
+		 	<rect width="10" height="10" fill="lightgray" stroke="gray" x="210" y="70" rx="2"/><!-- под антенной -->
+		 	<rect width="10" height="10" fill="lightgray" stroke="gray" x="280" y="70" rx="2"/>
+		 	<line class="animated fadeInUp" x1="215" y1="70" x2="215" y2="30" stroke="lightgray" stroke-width="2"/><!--  антенны -->
+		 	<line class="animated fadeInUp" x1="285" y1="70" x2="285" y2="30" stroke="lightgray" stroke-width="2"/><!--  антенны -->
+		 	<ellipse cx="250" cy="100" rx="60" ry="30" fill="lightgray" stroke="gray"/><!-- 	голова -->			
+		 	<ellipse class="robot__eye animated fadeIn infinite" cx="220" cy="95" rx="15" ry="5"/> <!-- глаза	 -->			
+		 	<ellipse class="robot__eye animated fadeIn infinite" cx="280" cy="95" rx="15" ry="5"/>
+		 <!-- глаза	 -->
+		
+			<rect width="110" height="120" fill="lightgray" stroke="gray" x="195" y="130" rx="15"/> <!-- туловище -->
+
+			
+
+
+		</svg>
+	</div>
+</body>
+</html>

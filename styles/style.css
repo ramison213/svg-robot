@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.robot__eye {
+	 stroke: gray;
+	 stroke-width: 3;
+	 stroke-opacity: 0.7;
+	 fill: black;  
+} 
+
